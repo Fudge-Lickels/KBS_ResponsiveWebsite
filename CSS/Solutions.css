@@ -1,0 +1,164 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 May 2024, 5:27:52 AM
+    Author     : Clare_S5
+*/
+
+/* START---------------------------------- ! SOLUTION PAGE ! ------------------------------------------------------START */
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url(fonts/Roboto-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url(fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-LightItalic';
+  src: url(fonts/Roboto-LightItalic.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto-Regular';
+}
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+header {
+  background-color: #1f2937;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 0 10px;
+}
+nav ul li a:hover {
+  color: #a3a5aa;
+}
+
+.headContainer {
+  background-color: #1f2937;
+  margin-bottom: 2rem;
+}
+.headContent {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 0px 17rem;
+}
+.headTitle {
+  font-family: 'Roboto-Bold';
+  color: #f9faf8;
+}
+.headDesc {
+  color: #f9faf8;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35rem;
+  height: 35rem;
+  border: 3px solid;
+  border-color: #3882f6;
+  border-radius: 5%;
+  box-shadow: 3px 2.5px 2.5px #000000;
+}
+th,
+td {
+  padding: 5px;
+  text-align: left;
+}
+th {
+  text-align: center;
+}
+.clientsContainer {
+  background-color: #e5e7eb;
+  margin: 2rem 0;
+}
+.clientsContent {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  margin: 0px 17rem;
+}
+.clientsDesc {
+  font-family: 'Roboto-LightItalic';
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 19rem 3rem 19rem;
+  background-color: #3882f6;
+  border-radius: 5px;
+}
+.contactButton {
+  padding: 3rem 2rem;
+}
+.contactBtn {
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  font-size: 14px;
+  color: #fff;
+  background-color: #3882f6;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.contactBtn:hover {
+  background-color: #0056b3;
+}
+.contactContent {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 4rem;
+  color: #f9faf8;
+}
+.contactTitle {
+  margin: 0;
+}
+.contactDesc {
+  margin: 0;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #1f2937;
+  color: #f9faf8;
+  align-content: center;
+  text-align: center;
+}

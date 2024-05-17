@@ -126,7 +126,6 @@ iframe {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
 section.developer-contact {
     margin-bottom: 20px;
 }
@@ -284,3 +283,15 @@ label {
   #back-to-top-btn:hover {
     background-color: #555;
   }
+@media only screen and (max-width: 600px) {
+  
+  iframe {
+      width: auto;
+      height: 390px;
+      margin: auto;
+      clear: right;
+  }
+  aside.contact-info{
+      clear: right;
+  }
+}

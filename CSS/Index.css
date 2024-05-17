@@ -34,26 +34,28 @@ and open the template in the editor.
 }
 #first button {
   background-color: #3882F6;
-  Margin-left: 180px;
-  color:#E5E7EB;
-  border: None;
-  width: 60px;
-  font-weight: thin;
+  margin-left: 180px;
+  color:#fff;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  font-size: 14px;
+  border: 1px solid #fff;
   border-radius: 3px;
   cursor: pointer;
+  transition: background-color 0.3s ease;  
 }
-#second{
+#first button:hover{
+  background-color: #0056b3;  
+}
+
+/*#second{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: 40px;
 }
-#second h2 {
-  margin-right: 250px;
-  margin-left: 250px;
-  margin-bottom: 15px;
-}
+
 #teams  {
   display: flex;
   flex-direction: row;
@@ -67,7 +69,7 @@ and open the template in the editor.
   width: 100px;
   border: solid medium blue;
   border-radius: 5px;
-}
+}*/
 #third {
   background-color: #E5E7EB;
   font-size: 36px;
@@ -84,29 +86,103 @@ and open the template in the editor.
 #fourth {
   background-color:#3882F6;
   display:flex;
-  flex-direction: column;
-  margin-bottom: 60px;
-  margin-left: 300px;
-  margin-right: 300px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 19rem 3rem 19rem;
+  background-color: #3882f6;
+  border-radius: 5px;
+  padding: 2rem 4rem;
+  color: #f9faf8;
+
 }
 #attract {
+  padding: 3rem 2rem;
+}
+.signUp {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 2rem 4rem;
+  color: #f9faf8;
 }
-#fourth h3 {
-  color:#F9FAF8;
-  margin-left: 60px
+.signUp h3 {
+  margin: 0;
+  background-color: #3882f6;
+  text-align: left;
+  color: #f9faf8;
 }
-#fourth p {
-  color:#E5E7EB;
+.signUp p {
+    margin: 0;
 }
-#attract button {
-  color:#F9FAF8;
-  background-color:#3882F6;
-  border: solid thin #F9FAF8;
-  margin-bottom: 10px;
-  width: 60px;
+
+.attractbtn{
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  font-size: 14px;
+  color: #fff;
+  background-color: #3882f6;
+  border: 1px solid #fff;
   border-radius: 3px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#attract button:hover{
+  background-color: #0056b3;  
+}
+
+#second {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#second h2 {
+ text-align: center;
+ margin-bottom: 15px;
+ margin-right: 250px;
+ margin-left: 250px;
+}
+#teams {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.team-members {
+  text-align: center;
+  margin: 0 10px 20px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+#teams:hover {
+  transform: translateY(-5px);
+}
+
+#teams img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+#teams strong {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+small {
+  color: #666;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+
+  section#fourth {
+    margin: 0 0 1rem 0;
+  }
+  .signUp {
+    padding: 2rem 2rem;
+  }
 }

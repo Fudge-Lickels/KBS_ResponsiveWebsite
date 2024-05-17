@@ -66,6 +66,7 @@ nav ul li a:hover {
   margin: 0px 17rem;
 }
 .headTitle {
+  text-align: left;
   font-family: 'Roboto-Bold';
   color: #f9faf8;
 }
@@ -86,7 +87,7 @@ nav ul li a:hover {
   flex-direction: column;
   align-items: center;
   width: 35rem;
-  height: 35rem;
+  height: 30rem;
   border: 3px solid;
   border-color: #3882f6;
   border-radius: 5%;
@@ -107,11 +108,12 @@ th {
 .clientsContent {
   display: flex;
   flex-direction: column;
-  padding: 5rem;
+  padding: 3rem;
   margin: 0px 17rem;
 }
 .clientsDesc {
   font-family: 'Roboto-LightItalic';
+  margin: 1rem 0;
 }
 
 .contactContainer {
@@ -149,16 +151,70 @@ th {
 }
 .contactTitle {
   margin: 0;
+  background-color: #3882f6;
+  text-align: left;
+  color: #f9faf8;
 }
 .contactDesc {
   margin: 0;
 }
-
-footer {
-  bottom: 0;
-  width: 100%;
-  background-color: #1f2937;
-  color: #f9faf8;
-  align-content: center;
+.boxTitle {
+  background-color: #fff;
+  color: #1f2937;
   text-align: center;
+}
+.clientsTitle {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  padding: 0;
+  text-align: left;
+}
+@media (max-width: 576px) {
+  .navList {
+    display: flex;
+    flex-direction: column;
+  }
+  .navList li {
+    display: block;
+  }
+
+  .navList li a {
+    text-decoration: none;
+    color: #f9faf8;
+    padding: 12px;
+    text-align: center;
+    margin: 15px;
+  }
+  header {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  header .container {
+    justify-content: center;
+  }
+  .item {
+    margin: 0 1rem;
+  }
+  .item-1 {
+    height: 39rem;
+  }
+  .item-2 {
+    height: 25rem;
+  }
+  .item-3 {
+    height: 33rem;
+  }
+  div.headContent {
+    margin: 0px;
+  }
+  div.clientsContent {
+    margin: 0;
+  }
+  div.contactContainer {
+    margin: 0 0 1rem 0;
+  }
+  p.contactContent {
+    padding: 2rem 2rem;
+  }
 }

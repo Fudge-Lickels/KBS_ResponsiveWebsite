@@ -117,3 +117,29 @@ header {
   #back-to-top-btn:hover {
     background-color: #555;
   }
+  
+  @media (max-width:576px){
+      .navList {
+    display: flex;
+    flex-direction: column;
+  }
+  .navList li {
+    display: block;
+  }
+
+  .navList li a {
+    text-decoration: none;
+    color: #f9faf8;
+    padding: 12px;
+    text-align: center;
+    margin: 15px;
+  }
+  header {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  header .container {
+    justify-content: center;
+  }
+  }

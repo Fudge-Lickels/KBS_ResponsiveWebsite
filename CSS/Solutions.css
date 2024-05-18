@@ -39,6 +39,18 @@ header {
   justify-content: space-around;
   align-items: center;
 }
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px 0;
+}
 nav ul {
   display: flex;
 }

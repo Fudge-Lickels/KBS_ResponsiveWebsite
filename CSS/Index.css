@@ -7,7 +7,18 @@ and open the template in the editor.
     Created on : 16 May 2024, 5:32:44 AM
     Author     : Clare_S5
 */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
 
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px 0;
+}
 #first{
   background-color:#1F2937;
   display: flex;

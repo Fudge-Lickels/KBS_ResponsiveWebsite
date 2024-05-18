@@ -186,3 +186,29 @@ small {
     padding: 2rem 2rem;
   }
 }
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+  }
+
+  .menu li {
+    display: block;
+  }
+
+  .menu li a {
+    font-size: 20px;
+    padding: 8px;
+  }
+
+  #teams figure {
+    flex-basis: 50%;
+  }
+
+  #first, #second, #third, #fourth {
+    flex-direction: column;
+    align-content: center;
+  }
+  #first section, #fourth section {
+    flex: 1 1 100%;
+}
+}

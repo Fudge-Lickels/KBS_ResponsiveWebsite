@@ -1,2 +1,2 @@
-https://keativbuddy-solutions.github.io/KBS_ResponsiveWebsite/
+https://fudge-lickels.github.io/KBS_ResponsiveWebsite/
  
